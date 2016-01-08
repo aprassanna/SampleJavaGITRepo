@@ -5,42 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://us.walmartone.com/en/walmart/home/"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='POV']//span[.='STEM Degrees Wanted']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "TabTitleLabel"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "TabPhotoUrlImage"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='LeftNav']//a[.='Walmart World']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ctl00_ctl00_PageContent_Body1PlaceHolder_Body1Dropzone_uxColumnDisplay_ctl00_uxControlColumn_ctl00_uxWidgetHost_uxWidgetHost_widget_hlLargeFeatureTitle"
-      }
+      "url": "https://jira.walmart.com/secure/Dashboard.jspa"
     },
     {
       "type": "goBack"
@@ -48,15 +13,19 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.pinterest-item"
+        "type": "id",
+        "value": "forgot-login-cancel"
       }
+    },
+    {
+      "type": "switchToFrame",
+      "identifier": "gadget-10000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Get the details."
+        "type": "xpath",
+        "value": "//div[2]/div/table/tbody/tr[2]/td[2]/p[5]/b/a"
       }
     }
   ],

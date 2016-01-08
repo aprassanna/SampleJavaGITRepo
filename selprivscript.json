@@ -8,14 +8,8 @@
       "url": "https://jira.walmart.com/secure/Dashboard.jspa"
     },
     {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "forgot-login-cancel"
-      }
+      "type": "verifyTextPresent",
+      "text": "System Dashboard"
     },
     {
       "type": "switchToFrame",
@@ -27,6 +21,38 @@
         "type": "xpath",
         "value": "//div[2]/div/table/tbody/tr[2]/td[2]/p[5]/b/a"
       }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h2"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Log in"
+    },
+    {
+      "type": "goBack"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "forgot-login-rb-forgot-password"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Can't access your account"
     }
   ],
   "data": {

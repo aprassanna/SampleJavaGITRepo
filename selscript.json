@@ -5,207 +5,45 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://l-sb810j4fvh-m.local:8080/"
+      "url": "https://saucelabs.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "FEATURES"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='middle']//a[.='Examples']"
+        "type": "link text",
+        "value": "FEATURES"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Servlets examples"
+        "value": "PRICING"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Execute"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[2]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[3]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[4]/td[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[4]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[4]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "firstname"
-      },
-      "text": "Test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "lastname"
-      },
-      "text": "Test"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//form/input[3]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[5]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "cookiename"
-      },
-      "text": "Test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "cookievalue"
-      },
-      "text": "username"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//form/input[3]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[5]/table/tbody/tr[6]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "dataname"
-      },
-      "text": "abc"
-    },
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "name",
-        "value": "datavalue"
-      },
-      "text": "\\9"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "datavalue"
-      },
-      "text": "Test"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "body"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[1]/input[3]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "JSP Examples"
+        "value": "ENTERPRISE"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Execute"
+        "value": "RESOURCES"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "DOCS"
       }
     },
     {
@@ -215,24 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//p[4]/table[1]/tbody/tr[3]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "goBack"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//p[4]/table[1]/tbody/tr[4]/td[2]/a[2]"
-      }
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//blockquote/code/table/tbody/tr[2]/td[2]"
+        "value": "//div[@id='content']//a[normalize-space(.)='']"
       }
     }
   ],

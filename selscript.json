@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://test123.com/"
+      "url": "https://saucelabs.com/"
     },
     {
       "type": "verifyTextPresent",
